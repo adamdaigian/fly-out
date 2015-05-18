@@ -1,8 +1,13 @@
 $(document).ready(function(){
-  console.log('ready')
   $('#building-blocks').on( "click", function() {
-    console.log('clickin')
+    console.log('click block')
     $('.block').addClass('active');
+  });
+
+  $('#close').on( "click", function(e) {
+    console.log('click close')
+    e.stopPropagation();
+    $('.block').removeClass('active');
   });
 
   $(window).on( "scroll", function() {

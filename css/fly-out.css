@@ -93,13 +93,17 @@ i.icon-info {
 
 .icon-close {
   position: absolute;
-  top: .75rem;
-  right: .75rem;
-  height: 1.8rem;
-  width: 1.8rem;
+  /* float: right; */
+   z-index: 4001; 
+  top: 17px;
+  left: 311px;
+  height: 1.1rem;
+  width: 1rem;
+  padding-left: 3px;
   border-radius: 100%;
-  border: 2px solid #666666;
-  color: #666666;
+  border: 3px solid #B2B2B2;
+  color: #B2B2B2;
+  cursor: pointer;
 }
 
 .hs-form-required,
@@ -133,6 +137,13 @@ input.hs-input,
   -webkit-border-radius: 3px;
   border-radius: 3px;
   margin-bottom: 8px;
+}
+
+select#vendor_type_category_picklist-195848e9-f8ed-4e13-b25b-7a8e8f6e8209 {
+  height: 37px;
+  background: #fff;
+  width: 241px;
+  color: #666666;
 }
 
 input.hs-button {
