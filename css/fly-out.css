@@ -111,12 +111,6 @@ i.icon-info {
   display: none;
 }
 
-::-webkit-input-placeholder {
-  padding-top: 4px;
-  padding-left: 7px;
-  padding-bottom: 7px;
-}
-
 label {
   display: none;
 }
@@ -127,7 +121,7 @@ input.hs-input,
   width: 240px;
   border: 1px solid #d2d2d2;
   height: 22px;
-  padding: 4px 0px 9px 0;
+  padding: 4px 4px 9px 0;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 13px;
   font-weight: 400;
@@ -142,15 +136,15 @@ input.hs-input,
 select#vendor_type_category_picklist-195848e9-f8ed-4e13-b25b-7a8e8f6e8209 {
   height: 37px;
   background: #fff;
-  width: 241px;
+  width: 253px;
   color: #666666;
 }
 
 input.hs-button {
   display: inline-block;
   position: relative;
-  width: 240px;
-  padding: 6px 0px 9px 0;
+  width: 252px;
+  padding: 6px 4px 9px 0;
   height: 32px;
   font-size: 14px;
   font-weight: 400;
@@ -158,4 +152,16 @@ input.hs-button {
   color: white;
   background-color: #59bfc7;
   background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0));
+}
+
+::-webkit-input-placeholder {
+  padding-top: 2px;
+  padding-left: 4px;
+  padding-bottom: 7px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"] {
+  padding-left: 7px;
 }
